@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.16)
+project(go_tcp)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+file (GLOB files *.cpp */*.cpp)
+foreach (file ${files})
+    string(REGEX REPLACE ".+/(.+)/(.+)\\..*" "\\1-\\2" exe ${file})
+    add_executable (${exe} ${file} decode.cpp decode.h simugtp.h simugtp.cpp)
+#    add_executable (go_tcp server.cpp WINSOCK2.H)
+endforeach ()
+

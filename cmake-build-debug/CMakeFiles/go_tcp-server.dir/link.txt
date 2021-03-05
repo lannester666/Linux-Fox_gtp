@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\go_tcp-server.dir/objects.a
+C:\PragmaDev\share\3rdparty\MinGW\bin\ar.exe cr CMakeFiles\go_tcp-server.dir/objects.a @CMakeFiles\go_tcp-server.dir\objects1.rsp
+C:\PragmaDev\share\3rdparty\MinGW\bin\g++.exe  -pthread -g   -Wl,--whole-archive CMakeFiles\go_tcp-server.dir/objects.a -Wl,--no-whole-archive  -o go_tcp-server.exe -Wl,--out-implib,libgo_tcp-server.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\go_tcp-server.dir\linklibs.rsp

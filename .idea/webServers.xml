@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d0e70168-3f5c-448c-9275-0b25473def08" name="server1" url="http://192.168.96.9">
+        <fileTransfer rootFolder="/home/zty" accessType="SFTP" host="192.168.96.9" port="22" sshConfigId="da26f2a0-3b32-4057-b378-f469c4b75c1b" sshConfig="zty@192.168.96.9:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

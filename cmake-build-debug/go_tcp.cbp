@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="go_tcp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-simugtp">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-simugtp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-simugtp"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-simugtp/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-simugtp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-simugtp/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-test">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-test"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-test/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-test/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-client">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-client"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-client/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-client/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-main">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-main"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-main/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-main/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-decode">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-decode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-decode"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-decode/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-decode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-decode/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-server">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-server"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tmp.r43a8SqqZ7-server/fast">
+				<Option output="/tmp/tmp.r43a8SqqZ7/cmake-build-debug/tmp.r43a8SqqZ7-server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.r43a8SqqZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 tmp.r43a8SqqZ7-server/fast"/>
+					<CompileFile command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j40 -f &quot;/tmp/tmp.r43a8SqqZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/client.cpp">
+			<Option target="tmp.r43a8SqqZ7-client"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/decode.cpp">
+			<Option target="tmp.r43a8SqqZ7-simugtp"/>
+			<Option target="tmp.r43a8SqqZ7-test"/>
+			<Option target="tmp.r43a8SqqZ7-client"/>
+			<Option target="tmp.r43a8SqqZ7-main"/>
+			<Option target="tmp.r43a8SqqZ7-decode"/>
+			<Option target="tmp.r43a8SqqZ7-server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/decode.h">
+			<Option target="tmp.r43a8SqqZ7-simugtp"/>
+			<Option target="tmp.r43a8SqqZ7-test"/>
+			<Option target="tmp.r43a8SqqZ7-client"/>
+			<Option target="tmp.r43a8SqqZ7-main"/>
+			<Option target="tmp.r43a8SqqZ7-decode"/>
+			<Option target="tmp.r43a8SqqZ7-server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/main.cpp">
+			<Option target="tmp.r43a8SqqZ7-main"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/server.cpp">
+			<Option target="tmp.r43a8SqqZ7-server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/simugtp.cpp">
+			<Option target="tmp.r43a8SqqZ7-simugtp"/>
+			<Option target="tmp.r43a8SqqZ7-test"/>
+			<Option target="tmp.r43a8SqqZ7-client"/>
+			<Option target="tmp.r43a8SqqZ7-main"/>
+			<Option target="tmp.r43a8SqqZ7-decode"/>
+			<Option target="tmp.r43a8SqqZ7-server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/simugtp.h">
+			<Option target="tmp.r43a8SqqZ7-simugtp"/>
+			<Option target="tmp.r43a8SqqZ7-test"/>
+			<Option target="tmp.r43a8SqqZ7-client"/>
+			<Option target="tmp.r43a8SqqZ7-main"/>
+			<Option target="tmp.r43a8SqqZ7-decode"/>
+			<Option target="tmp.r43a8SqqZ7-server"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/test.cpp">
+			<Option target="tmp.r43a8SqqZ7-test"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.r43a8SqqZ7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

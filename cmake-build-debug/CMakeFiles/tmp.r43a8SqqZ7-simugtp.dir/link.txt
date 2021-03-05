@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g CMakeFiles/tmp.r43a8SqqZ7-simugtp.dir/simugtp.cpp.o CMakeFiles/tmp.r43a8SqqZ7-simugtp.dir/decode.cpp.o -o tmp.r43a8SqqZ7-simugtp 

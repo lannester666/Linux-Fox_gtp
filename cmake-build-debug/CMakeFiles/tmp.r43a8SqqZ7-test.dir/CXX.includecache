@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.r43a8SqqZ7/decode.cpp
+decode.h
+/tmp/tmp.r43a8SqqZ7/decode.h
+cstdio
+/tmp/tmp.r43a8SqqZ7/cstdio
+iostream
+/tmp/tmp.r43a8SqqZ7/iostream
+cstring
+/tmp/tmp.r43a8SqqZ7/cstring
+simugtp.h
+/tmp/tmp.r43a8SqqZ7/simugtp.h
+
+/tmp/tmp.r43a8SqqZ7/decode.h
+string
+/tmp/tmp.r43a8SqqZ7/string
+
+/tmp/tmp.r43a8SqqZ7/simugtp.h
+
