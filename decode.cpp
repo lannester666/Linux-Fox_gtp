@@ -82,43 +82,18 @@ void decode_protocol(int out,char fox_protocol[],ofstream &outfile)
     int gtp_start, gtp_end;
     char gtp_format[1024];
     bool command_flag = false;
+    bool flag=false;
     while (index < str.size())
     {
-        bool flag=false;
-        if (str[index] == ',' && !command_flag&&flag) {
+        if (str[index] == ',' && !command_flag) {
             outfile<<" command start and end"<<start<<"  "<<index<<endl;
-            command = str.substr(start, index);
+            command = str.substr(start, index-start);
             gtp_start = index;
             command_flag = true;
             cout << "the command is " << command << endl;
-            if (command == "$FARULE")
-            {
-                sort_FARULE(out, gtp);
-            }
-            else if (command == "$FASTATUS")
-            {
-                sort_FASTATUS(out, gtp,&color);
-            }
-            else if (command == "$FAMOVE")
-            {
-                sort_FAMOVE(out, gtp,outfile);
-            }
-            else if (command == "$FASKIP")
-            {
-                sort_FASKIP(out, gtp);
-            }
-            else if (command == "$FARESULT")
-            {
-                sort_FARESULT(out, gtp);
-            }
-            else if (command == "$FATIMELEFT")
-            {
-                sort_FATIMELEFT(out, gtp,color);
-            }
         }
         else if (str[index] == '*')
         {
-            outfile<<"line118:"<<gtp_start<<endl;
             gtp_end = index;
             gtp = str.substr(gtp_start, gtp_end - gtp_start);
             flag=true;
@@ -126,14 +101,32 @@ void decode_protocol(int out,char fox_protocol[],ofstream &outfile)
         }
         if (str[index] == '<')
         {
-            outfile<<"line125:"<<gtp_end+1<<endl;
             check = str.substr(gtp_end + 1, index - gtp_end - 1);
             break;
         }
         if(str[index]=='\n')
         {
             command_flag=false;
+            flag=false;
             start=index+1;
+        }
+        if(flag) {
+            if (command == "$FARULE") {
+                sort_FARULE(out, gtp);
+            } else if (command == "$FASTATUS") {
+                sort_FASTATUS(out, gtp, &color);
+            } else if (command == "$FAMOVE") {
+                sort_FAMOVE(out, gtp, outfile);
+            } else if (command == "$FASKIP") {
+                sort_FASKIP(out, gtp);
+            } else if (command == "$FARESULT") {
+                sort_FARESULT(out, gtp);
+            } else if (command == "$FATIMELEFT") {
+                sort_FATIMELEFT(out, gtp, color);
+            }
+            while(index<str.length()&&str[index]!='\n')
+                index++;
+            continue;
         }
         index++;
     }
@@ -184,7 +177,7 @@ void sort_FAMOVE(int out,string gtp,ofstream &outfile)//对应play和genmove
         x = (char)(xx+65);
         yy=19-yy;
         string play = "play " +op_color + " " + x + to_string(yy);
-        cout<<"play" <<play<<endl;
+        cout<<play<<endl;
         write_io(out, play);
         string genmove = "genmove "+color;
         g_color=color;
