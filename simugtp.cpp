@@ -56,7 +56,7 @@ int write_io(int out, string s){
 //write_socket函数
 int write_sock(int sockfd, const char* s){
     if(sockfd != 0) {
-        return write(sockfd, s, sizeof(s));
+        return write(sockfd, s, strlen(s));
     }
     else {
         return -1;
