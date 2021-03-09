@@ -282,7 +282,7 @@ const char* sort_AFPLAY(char gtp[],ofstream &outfile)//ai传送的gtp格式
     }
 //    FOXPKG_CalCheckSum(temp1, temp1.length(), use);
     temp += use;
-    temp+='\r'+'\n';
+    temp+="\r\n";
     const char* str;
     str = strdup(temp.c_str());
 //    cout << temp << endl;

@@ -55,7 +55,6 @@ int write_io(int out, string s){
 
 //write_socket函数
 int write_sock(int sockfd, const char* s){
-    cout<<"sockfd "<<sockfd<<endl;
     if(sockfd != 0) {
         return write(sockfd, s, sizeof(s));
     }
@@ -73,13 +72,13 @@ void *start_routine_io( void *ptr)
     	read(m_in, reStr, 256);
         //此处需要处理协议
         const char* s=sort_AFPLAY(reStr,outfile);
-        if(strcmp(s,"")==1)
+        if(strcmp(s,"")==0)
         {
-//            cout<<"校验出错"<<endl;
+            cout<<"校验出错或暂时不实现的命令"<<endl;
             continue;
         }
         cout<<s<<endl;
-        write_sock(m_clnt_socket,s);
+        cout<<"write_sock return "<<write_sock(m_clnt_socket,s)<<endl;
 	}
 }
 
