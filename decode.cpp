@@ -16,7 +16,7 @@ int getArrayLen(T& array)
 {
     return (sizeof(array) / sizeof(array[0]));
 }
-int move;//全局变量代表手数；
+int num=-1;//全局变量代表手数；
 string g_color;//全局变量代表ai棋子颜色；
 bool FOXPKG_CalCheckSum(
         string buf, // 数据缓冲区
@@ -44,6 +44,7 @@ bool FOXPKG_CalCheckSum(
     transform(s.begin(), s.end(), s.begin(), ::toupper);
     if(s.length()==1)
         s='0'+s;
+    use=s;
     return true;
 }
 string find_next(int* pointer,string gtp)
@@ -244,13 +245,24 @@ void sort_FATIMELEFT(int out,string gtp,string color)
 const char* sort_AFPLAY(char gtp[],ofstream &outfile)//ai传送的gtp格式
 //暂时不解决手数问题
 {
+
     char* res;
     string temp;
+    if(gtp[2]==32||gtp[2]==10)
+        return "";
+    if(num==-1) {
+        if (g_color == "B")
+            num = 1;
+        else
+            num = 2;
+    }
+    else
+        num+=2;
     outfile<<"receive ai move" << gtp << endl;
     cout << "receive ai move" << gtp << endl;
     temp += "$AFPLAY,";
-    temp += "B";
-    temp += "1^";
+    temp += g_color+",";
+    temp += to_string(num)+"^";
     int x = gtp[2]-65;
     if (x >= 9)
         x--;
@@ -261,7 +273,7 @@ const char* sort_AFPLAY(char gtp[],ofstream &outfile)//ai传送的gtp格式
         s += gtp[i];
     int y = 19-atoi(s.c_str());
     temp += to_string(y);
-    temp += "^B*";
+    temp += "^"+g_color+"*";
     string temp1 = temp.substr(1, temp.length() - 2);
     string use;
     if(!FOXPKG_CalCheckSum(temp1, temp1.length(), use)) {
@@ -270,9 +282,10 @@ const char* sort_AFPLAY(char gtp[],ofstream &outfile)//ai传送的gtp格式
     }
 //    FOXPKG_CalCheckSum(temp1, temp1.length(), use);
     temp += use;
+    temp+='\r'+'\n';
     const char* str;
     str = strdup(temp.c_str());
-    cout << temp << endl;
+//    cout << temp << endl;
     outfile<<temp<<endl;
     //cout << str << endl;
     return str;

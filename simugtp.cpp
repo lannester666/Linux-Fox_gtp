@@ -18,8 +18,9 @@
 #include "simugtp.h"
 #include "fstream"
 #include <sys/prctl.h>
+#include "iostream"
 //协议解析
-
+using namespace std;
 //需要全局保存写管道（给ai）和写网络（给野狐）,备使用
 int m_out = 0;
 int m_in = 0;
@@ -27,9 +28,12 @@ int m_clnt_socket = 0;
 ofstream outfile;
 //read_socket函数
 int write_io(int out, string s){
-    char *seStr=(char*)s.c_str();;
-//    strcpy(seStr, s);
-//    strcat(seStr, "\n");
+//    cout<<"write_io receive"<<s<<endl;
+    int n=s.length();
+    char seStr[n];
+    strcpy(seStr, s.c_str());
+    strcat(seStr, "\n");
+//    cout<<"write_io receive"<<seStr<<endl;
     write(out, seStr, strlen(seStr));
     return 0;
 }
@@ -51,6 +55,7 @@ int write_io(int out, string s){
 
 //write_socket函数
 int write_sock(int sockfd, const char* s){
+    cout<<"sockfd "<<sockfd<<endl;
     if(sockfd != 0) {
         return write(sockfd, s, sizeof(s));
     }
@@ -73,6 +78,7 @@ void *start_routine_io( void *ptr)
 //            cout<<"校验出错"<<endl;
             continue;
         }
+        cout<<s<<endl;
         write_sock(m_clnt_socket,s);
 	}
 }
